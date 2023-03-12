@@ -1,0 +1,82 @@
+body {
+  background-color: white;
+  width: 500px;
+  height: 500px;
+}
+
+button {
+  background-color: rgb(20, 75, 255);
+  color: white;
+  box-shadow: none;
+  border: 2px solid white;
+  border-radius: 15px;
+  padding: 10px;
+  width: 100px;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: rgb(255, 73, 73);
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  font-size: 30px;
+}
+
+button:focus {
+  outline: none;
+}
+
+#info-text {
+  text-align: center;
+}
+
+#list-button-div {
+  margin: 0 auto;
+  width: 50%;
+  padding: 10 0 10 20px;
+}
+
+#url-list {
+  background-color: rgb(230, 230, 230);
+  height: 70%;
+  width: 90%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin: auto;
+}
+
+.url-div {
+  background-color: white;
+  color: black;
+  width: 95%;
+  height: 50px;
+  margin: 2.5%;
+}
+
+.url-text {
+  position: relative;
+  left: 10%;
+  top: 30%;
+}
+
+.url-remove-button {
+  position: relative;
+  left: 60%;
+  bottom: 65%;
+}
+
+#input-section {
+  margin: 0 auto;
+  width: 65%;
+}
+
+#selected-button {
+  background-color: rgb(13, 151, 0);
+}
+
+#selected-button:hover {
+  background-color: rgb(15, 180, 0);
+}
